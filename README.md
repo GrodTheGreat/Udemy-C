@@ -53,7 +53,7 @@ Click the **Signup** button to sign up for the course!
 - Understand the fundamentals of the C Programming Language
 - Make yourself more marketable for entry level programming positions
 - Create your first C Application
-- Learn one of the most popular, widly used languages in the world
+- Learn one of the most popular, widely used languages in the world
 - Understand variables and the different data types
 - Apply for real-time programming positions
 - Understand the core language that most modern languages are based on
