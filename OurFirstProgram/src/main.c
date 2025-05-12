@@ -5,7 +5,7 @@ int main() {
 
   printf("Please enter your favorite number\n");
   scanf("%d", &myFavoriteNumber);
-  printf("You entered number: %d", myFavoriteNumber);
+  printf("You entered number: %d\n", myFavoriteNumber);
 
   return 0;
 }
