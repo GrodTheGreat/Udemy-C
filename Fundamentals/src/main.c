@@ -11,5 +11,23 @@ int main() {
     /*
     This is a multi line comment
     */
+
+    printf("Printf is useful to send data to the output stream, usually the command line\n");
+
+    //scanf take input in from the input stream, also usually the command line.
+    // scanf returns the number of items it successfully reads
+    // if you use scanf to read a value for one of the basic data variable types, proceed the variable name with an &
+    // if you use scanf to read a string into a character array, don't use an &
+    // scanf uses whitespace to decide how to divide up input
+
+    char str[100];
+    int i;
+
+    printf("Enter a value: ");
+    scanf("%s %d", str, &i);
+
+    printf("\nYou entered: %d::::%s\n", i, str);
+
+
     return 0; // You can add comments here too
 }
