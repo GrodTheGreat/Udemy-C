@@ -15,5 +15,21 @@ int main() {
     boolVariable = 1;
     bool anotherBool = false; //bool needs stdbool otherwise it needs to be _Bool
 
+    enum gender { male, female, other };
+
+    enum gender myGender;
+
+    myGender = male;
+
+    // myGender = "44"; // This will error
+
+    enum gender anotherGender = female;
+
+    bool isMale = myGender == male;
+
+    char myCharacter = '\n'; // newline counts as a single character
+
+    printf("%c", myCharacter);
+
     return 0;
 }
