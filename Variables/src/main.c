@@ -31,5 +31,21 @@ int main() {
 
     printf("%c", myCharacter);
 
+    int intVar = 3;
+    float floatVar = 3.14f;
+    char charVar = 'a';
+    double doubleVar = 3.14;
+    _Bool boolVar = 0;
+
+    printf("Int: %d\n", intVar);
+    printf("Float: %f\n", floatVar);
+    printf("Char: %c\n", charVar);
+    printf("Double: %lf\n", doubleVar);
+    printf("Double: %g\n", doubleVar);
+    printf("Bool: %d\n", boolVar);
+
+    float x = 3.99434643168763;
+    printf("%.2f\n", x);
+
     return 0;
 }
